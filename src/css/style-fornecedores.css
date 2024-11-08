@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    color: #B7602E;
+    font-family: 'Inter', sans-serif;
+}  
+
+
+.fornecedores {
+    text-align: center;
+    background-color:#A3D89C ;
+    height: 100vh;
+}
+  
+.titulo h1 {
+    background-color: #FFF6A4;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+.map {
+    margin: 20px 0;
+}
+  
+  .info-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .info-box {
+    background-color: #FFF6A4;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .saiba-mais {
+    padding: 10px 20px;
+    background-color: #B7602E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 70px;
+  }
+  
+  .saiba-mais:hover {
+    background-color: #B7602E;
+  }
+  

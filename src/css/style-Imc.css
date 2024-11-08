@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a3d689;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  header {
+    background-color: #f9d66b;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile span {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .profile-icon img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+  }
+  
+  .imc-calculator {
+    background-color: #f3ecaf;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .imc-calculator h2 {
+    font-size: 24px;
+    color: #bb8138;
+    margin-bottom: 20px;
+  }
+  
+  .imc-calculator h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #bb8138;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #8bc34a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #7cb342;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #bb8138;
+    font-weight: bold;
+  }

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .educacao-nutricional{
+    text-align: center;
+  }
+  
+
+  .logo img {
+    height: 50px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile span {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .profile-icon img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    background-color: #a3d689;
+    padding: 20px;
+    height: calc(100vh - 80px);
+  }
+  
+  .content-section, .lives-section {
+    background-color: #f3ecaf;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  .content-section h2, .lives-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .content-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    background-color: #f7f7d9;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  .card img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .lives-section .live {
+    background-color: #f7f7d9;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lives-section .live img {
+    width: 80px;
+    height: 80px;
+  }
+  

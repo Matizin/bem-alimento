@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  color: #B7602E;
+  font-family: 'Inter', sans-serif;
+}  
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #FFF6A4;    
+}
+
+.icone-marca {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icone-marca img {
+  height: 50px;
+  width: auto;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px; 
+  margin-left: 20px; 
+}
+  
+
+.nav-bar a {
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+  
+
+.perfil a {
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+ 
+.perfil img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ccc; 
+}
+
+.nav-bar a {
+  text-decoration: none; 
+  position: relative;  
+  padding-bottom: 5px;
+}
+
+.nav-bar a::after {
+  content: ""; 
+  display: block; 
+  width: 100%; 
+  height: 2px; 
+  background-color: #A3D89C; 
+  position: absolute; 
+  bottom: 0; 
+  opacity: 0; 
+  transition: opacity 0.3s; 
+}
+
+.nav-bar a:hover::after {
+  opacity: 1; 
+}

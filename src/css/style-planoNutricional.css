@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    color: #B7602E;
+    font-family: 'Inter', sans-serif;
+}  
+
+/* Estilos gerais para o menu principal */
+.plano-nutricional{
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 120vh; /* Ocupa 100% da altura da tela */
+    background-color: #A3D89C; /* Cor de fundo */
+}
+
+/* Estilos do header */
+#header {
+    width: 100%; /* Faz o header ocupar toda a largura */
+}
+
+.container {
+    display: flex; /* Usa flexbox para o container */
+    flex-direction: column; /* Alinha as divs verticalmente */
+    align-items: center; /* Centraliza as divs horizontalmente */
+    justify-content: space-around; /* Centraliza as divs verticalmente */
+    flex-grow: 1; /* Permite que o container ocupe o espaço restante */
+    margin-top: 10px; /* Espaço entre o header e o container */
+    width: 100%;
+}
+.box {
+    background-color: #FFF6A4; /* Cor de fundo das boxes */
+    border: 1px solid #ccc; /* Borda para as boxes */
+    padding: 30px; /* Aumenta o padding para aumentar a altura e a largura */
+    margin: 20px 0; /* Aumenta a margem entre as boxes (superior e inferior) */
+    width: 80%; /* Aumenta a largura das boxes */
+    text-align: center; /* Centraliza o texto dentro das boxes */
+}
+.box h3 {
+    margin-bottom: 10px; /* Espaço entre h3 e h4 */
+}
+.card-plano-nutricional{
+    display: flex; /* Configura a box para usar flexbox */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: space-around; /* Espaça horizontalmente entre os itens */
+    text-align: center; /* Centraliza o texto dentro das boxes */
+}
+
+.add-plan-btn, .recipe-library-btn {
+    background-color: #FFF6A4;
+    color: #3E4A59;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Modal Styling */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Input Styling */
+.modal-content input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Modal Buttons Styling */
+.modal-content button {
+    background-color: #FFF6A4;
+    color: #3E4A59;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo específico para o botão Cancelar */
+.modal-content button:nth-child(2) {
+    background-color: #ccc;
+    margin-left: 10px;
+}
+
+.modal-content button:hover {
+    background-color: #e0e0a8;
+}
