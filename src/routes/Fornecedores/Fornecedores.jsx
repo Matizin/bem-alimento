@@ -1,8 +1,8 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import Header from '../../components/header';
 import '../../css/style-fornecedores.css';
+import Header from '../../components/header';
 
 function Fornecedores() {
   const bancosDeAlimentos = [
